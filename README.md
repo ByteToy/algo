@@ -10,3 +10,5 @@
 | [sudoku](https://github.com/ByteToy/algo/blob/master/recursion/sudoku.py)                                                                                                                                                                                                                                       | [Python回溯算法解数独](http://bytetoy.cn/python/sudoku.html)       |
 | [linklist.py](https://github.com/ByteToy/algo/blob/master/others/linklist.py)                                                                                                                                                                                                                                              | [Python单向链表](http://bytetoy.cn/python/linklist.html)        |
 |[cyclelink.py](others/cyclelink.py)| [Python单向循环链表](http://bytetoy.cn/python/cyclelink.html)                 |
+|[binary_tree.py](C07/binary_tree.py]|[Python二叉树遍历(http://bytetoy.cn/python/binary_tree_travel.html)|
+|[binary_tree_list.py)(C07/binary_tree_list.py)|[Python二叉树列表表示](http://bytetoy.cn/python/binary_tree_array.html)|
