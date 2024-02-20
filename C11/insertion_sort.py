@@ -10,7 +10,7 @@ def insertion_sort(nums:list[int]):
         while j>=0 and nums[j]>base:
             nums[j+1]=nums[j]
             j-=1
-        # 注意下标j+1的含义，在while循环中j已经跑到前一个位置了
+        # 注意下标j+1的含义，在while循环中j已经跑到前一个位置了，因此需要j+1
         nums[j+1]=base
 
 if __name__=="__main__":
