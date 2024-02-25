@@ -19,8 +19,9 @@ class TreeNode:
 # left:中序列表左侧元素下标
 # right:中序列表右侧元素下标
 def dfs(pre_list:list[int],mid_dict:dict[int,int],root_index,left,right):
+    # 当前节点为叶子节点，right和left指向同一个节点
     if right-left<0:
-        return
+        return None
     root=TreeNode(pre_list[root_index])
     # 通过前序列表元素值，在中序列表中获取下标
     t=mid_dict[pre_list[root_index]]
